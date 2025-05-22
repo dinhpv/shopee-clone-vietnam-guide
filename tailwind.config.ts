@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -24,6 +25,13 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				shopee: {
+					primary: '#ee4d2d',
+					secondary: '#f5f5f5',
+					orange: '#ee4d2d',
+					light: '#fff2ee',
+					"orange-dark": '#d73211',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
